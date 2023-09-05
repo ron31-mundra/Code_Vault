@@ -1,0 +1,2061 @@
+17:04:44 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83C190>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:44 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83C160>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:44 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83C640>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:04:48 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83C3D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:48 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F85FAF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:48 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F85FB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:04:52 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83C3A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:52 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83C190>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:52 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F85FB20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:04:56 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F85FD60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:56 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026851358610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:04:56 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026851358340>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:05:04 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000268512EDE40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:05:04 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000268512EE2F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:05:04 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000268512EFE20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:05:14 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83B9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:05:14 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83A620>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:05:14 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002684F83A860>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 815, in urlopen
+    return self.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 815, in urlopen
+    return self.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83A860>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 520, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83A860>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 233, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 220, in request
+    result = self.request_raw(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 533, in request_raw
+    raise error.APIConnectionError(
+openai.error.APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83A860>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+17:07:24 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F838190>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network')': /v1/completions
+17:07:24 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F839270>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:07:24 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F8381F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:07:28 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F83BEE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:07:28 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026851324670>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:07:28 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002685165B670>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:08:14 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002685165BA30>, 'Connection to api.openai.com timed out. (connect timeout=600)')': /v1/completions
+17:08:36 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002685165B820>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host')': /v1/completions
+17:08:36 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002685165BC10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:08:40 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002685165BF10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:40 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F855720>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:40 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F854FA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:08:43 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014198266B90>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host')': /v1/completions
+17:08:43 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001419827AA70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:43 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014198279C90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:08:47 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001419827A950>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:47 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001419827A800>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:47 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001419827A5F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:08:48 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F855060>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:48 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F854D60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+17:08:48 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002684F854AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+17:09:14 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+
+int main() 
+{ 
+    int num1, num2, sum; 
+  
+    // Input two numbers from user 
+    printf("Enter two numbers: "); 
+    scanf("%d%d", &num1, &num2); 
+  
+    // Calculate sum 
+    sum = num1 + num2; 
+  
+    // Print sum 
+    printf("Sum = %d", sum); 
+  
+    return 0; 
+} in language: C with Compiler Mode: offline
+17:09:14 [INFO] __main__ - Running code: 
+
+#include <stdio.h> 
+
+int main() 
+{ 
+    int num1, num2, sum; 
+  
+    // Input two numbers from user 
+    printf("Enter two numbers: "); 
+    scanf("%d%d", &num1, &num2); 
+  
+    // Calculate sum 
+    sum = num1 + num2; 
+  
+    // Print sum 
+    printf("Sum = %d", sum); 
+  
+    return 0; 
+} in language: C
+17:09:14 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmpfi5245ua.c
+17:09:14 [ERROR] __main__ - Error in code execution: Traceback (most recent call last):
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 281, in execute_code
+    output = run_code(
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 193, in run_code
+    compile_output = subprocess.run(
+  File "C:\Program Files\Python310\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Program Files\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\Python310\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+17:09:20 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+
+int main() 
+{ 
+    int num1, num2, sum; 
+  
+    // Input two numbers from user 
+    printf("Enter two numbers: "); 
+    scanf("%d%d", &num1, &num2); 
+  
+    // Calculate sum 
+    sum = num1 + num2; 
+  
+    // Print sum 
+    printf("Sum = %d", sum); 
+  
+    return 0; 
+} in language: C with Compiler Mode: online
+17:09:20 [INFO] __main__ - Generating dynamic HTML for language: C
+17:10:51 [INFO] __main__ - Saving code to file: 1.c
+17:10:51 [INFO] __main__ - Code saved to file 1.c
+17:10:59 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+
+int main() 
+{ 
+    int num1, num2, sum; 
+  
+    printf("Enter two numbers: ");  
+    scanf("%d%d", &num1, &num2); 
+  
+    sum = num1 + num2; 
+  
+    printf("Sum = %d", sum); 
+  
+    return 0; 
+} in language: C with Compiler Mode: offline
+17:10:59 [INFO] __main__ - Running code: 
+
+#include <stdio.h> 
+
+int main() 
+{ 
+    int num1, num2, sum; 
+  
+    printf("Enter two numbers: ");  
+    scanf("%d%d", &num1, &num2); 
+  
+    sum = num1 + num2; 
+  
+    printf("Sum = %d", sum); 
+  
+    return 0; 
+} in language: C
+17:10:59 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmpzpqk6hi_.c
+17:10:59 [ERROR] __main__ - Error in code execution: Traceback (most recent call last):
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 281, in execute_code
+    output = run_code(
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 193, in run_code
+    compile_output = subprocess.run(
+  File "C:\Program Files\Python310\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Program Files\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\Python310\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+15:36:13 [INFO] __main__ - Saving code to file: sum.c
+15:36:14 [INFO] __main__ - Code saved to file sum.c
+15:37:21 [INFO] __main__ - Executing code: 
+
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, sum;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // calculating sum
+    sum = num1 + num2;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+} in language: C with Compiler Mode: offline
+15:37:21 [INFO] __main__ - Running code: 
+
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, sum;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // calculating sum
+    sum = num1 + num2;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+} in language: C
+15:37:21 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmpwjx7a6o0.c
+15:37:21 [ERROR] __main__ - Error in code execution: Traceback (most recent call last):
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 283, in execute_code
+    output = run_code(
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 195, in run_code
+    compile_output = subprocess.run(
+  File "C:\Program Files\Python310\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Program Files\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\Python310\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+15:39:04 [INFO] __main__ - Executing code: 
+
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, sum;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // calculating sum
+    sum = num1 + num2;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+} in language: C with Compiler Mode: online
+15:39:04 [INFO] __main__ - Generating dynamic HTML for language: C
+15:40:37 [INFO] __main__ - Executing code: 
+
+# code
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+sum = a + b
+
+print("The sum of the two numbers is", sum) in language: Python with Compiler Mode: online
+15:40:37 [INFO] __main__ - Generating dynamic HTML for language: Python
+17:44:14 [INFO] __main__ - Saving code to file: 
+17:44:21 [INFO] __main__ - Executing code: 
+
+fun main() {
+    println("Hello World!")
+} in language: Kotlin with Compiler Mode: online
+17:44:21 [INFO] __main__ - Generating dynamic HTML for language: Kotlin
+17:45:17 [INFO] __main__ - Saving code to file: 
+17:45:24 [INFO] __main__ - Saving code to file: hello
+17:45:24 [INFO] __main__ - Code saved to file hello
+18:44:08 [INFO] __main__ - Saving code to file: sum_2
+18:44:08 [INFO] __main__ - Code saved to file sum_2
+18:55:14 [INFO] __main__ - Saving code to file: sum2.c
+18:55:15 [INFO] __main__ - Code saved to file sum2.c
+19:01:37 [INFO] __main__ - Saving code to file: sum3.c
+19:01:37 [INFO] __main__ - Code saved to file sum3.c
+19:02:28 [INFO] __main__ - Saving code to file: sum4.c
+19:02:28 [INFO] __main__ - Code saved to file sum4.c
+19:17:18 [INFO] __main__ - Saving code to file: sum5.c
+19:17:18 [INFO] __main__ - Code saved to file sum5.c
+19:18:15 [INFO] __main__ - Saving code to file: sum56c
+19:18:15 [INFO] __main__ - Code saved to file sum56c
+19:23:14 [INFO] __main__ - Saving code to file: sum1
+19:23:14 [INFO] __main__ - Code saved to file sum1
+19:23:34 [INFO] __main__ - Saving code to file: sum1.c
+19:23:34 [INFO] __main__ - Code saved to file sum1.c
+19:26:18 [INFO] __main__ - Saving code to file: sum2.c
+19:26:18 [INFO] __main__ - Code saved to file sum2.c
+19:31:18 [INFO] __main__ - Saving code to file: sum3.c
+19:31:18 [INFO] __main__ - Code saved to file sum3.c
+23:25:59 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425986470>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:25:59 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425986230>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:25:59 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B4259864D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:03 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA6FE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:03 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425985C00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:03 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B4259863E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:07 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C5B9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:07 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA70A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:07 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA6A10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:11 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA6230>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:11 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA5B40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:11 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA58D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:19 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA49D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:19 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA47F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:19 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA45B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:19 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42461FFA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:19 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42461FD90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:19 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42461F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:20 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B94490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:20 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B94640>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:20 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B947F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:23 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA4F70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:23 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423CA4700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:23 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42460E380>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:24 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B94940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:24 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B94B80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:24 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B94D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:27 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B95120>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:27 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B952D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:27 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B95060>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:28 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B95690>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:28 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B95990>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:28 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B959F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:29 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B95CF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:29 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B425B95EA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:31 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C9B880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:31 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C9B3D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:31 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C9B700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:32 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C983A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:32 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C98610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:32 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C98250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:39 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C8E7A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:39 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C8D090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:39 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C8CEB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:40 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C8C8E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:40 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C8C610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+23:26:40 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B423C8C550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+23:26:59 [INFO] __main__ - Saving code to file: sum_2_num.c
+23:26:59 [INFO] __main__ - Code saved to file sum_2_num.c
+23:28:18 [INFO] __main__ - Saving code to file: sum _num_2.c
+23:28:18 [INFO] __main__ - Code saved to file sum _num_2.c
+11:37:29 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:37:29 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:37:33 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:37:33 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:37:39 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:37:39 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:37:55 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:37:55 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:38:03 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:38:03 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:38:14 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:38:14 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 235, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: The server had an error while processing your request. Sorry about that!
+
+11:39:46 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:39:46 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:39:51 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:39:51 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:39:56 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that!' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+11:39:56 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: The server had an error while processing your request. Sorry about that!.
+11:41:19 [INFO] __main__ - Saving code to file: sum.swift
+11:41:19 [INFO] __main__ - Code saved to file sum.swift
+11:41:26 [INFO] __main__ - Executing code: 
+
+import Foundation
+
+func getInput() -> (Int, Int) {
+    print("Enter two numbers:")
+    let num1 = Int(readLine()!)!
+    let num2 = Int(readLine()!)!
+    
+    return (num1, num2)
+}
+
+let (num1, num2) = getInput()
+
+print("Sum of the two numbers: \(num1 + num2)") in language: Swift with Compiler Mode: online
+11:41:26 [INFO] __main__ - Generating dynamic HTML for language: Swift
+11:43:22 [INFO] __main__ - Executing code: 
+
+import Foundation
+
+func getInput() -> (Int, Int) {
+    print("Enter two numbers:")
+    let num1 = Int(readLine()!)!
+    let num2 = Int(readLine()!)!
+    
+    return (num1, num2)
+}
+
+let (num1, num2) = getInput()
+
+print("Sum of the two numbers: \(num1 + num2)") in language: Swift with Compiler Mode: offline
+11:43:22 [INFO] __main__ - Running code: 
+
+import Foundation
+
+func getInput() -> (Int, Int) {
+    print("Enter two numbers:")
+    let num1 = Int(readLine()!)!
+    let num2 = Int(readLine()!)!
+    
+    return (num1, num2)
+}
+
+let (num1, num2) = getInput()
+
+print("Sum of the two numbers: \(num1 + num2)") in language: Swift
+11:43:22 [INFO] __main__ - Output execution: Unsupported language.
+11:43:22 [INFO] __main__ - Execution Output: Unsupported language.
+15:47:53 [INFO] __main__ - Saving code to file: bin_search.c
+15:47:53 [INFO] __main__ - Code saved to file bin_search.c
+17:24:38 [INFO] __main__ - Saving code to file: binary.c
+17:24:38 [INFO] __main__ - Code saved to file binary.c
+17:25:00 [INFO] __main__ - Executing code: 
+
+// C program to implement Binary Search 
+#include <stdio.h> 
+  
+// A recursive binary search function. It returns 
+// location of x in given array arr[l..r] is present, 
+// otherwise -1 
+int binarySearch(int arr[], int l, int r, int x) 
+{ 
+   if (r >= l) 
+   { 
+        int mid = l + (r - l)/2; 
+  
+        // If the element is present at the middle itself 
+        if (arr[mid] == x)   
+            return mid; 
+  
+        // If element is smaller than mid, then it can only 
+        // be present in left subarray 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+  
+        // Else the element can only be present in right subarray 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+  
+   // We reach here when element is not present in array 
+   return -1; 
+} 
+  
+int main(void) 
+{ 
+   int arr[] = {2, 3, 4, 10, 40}; 
+   int n = sizeof(arr)/ sizeof(arr[0]); 
+   int x = 10; 
+   int result = binarySearch(arr, 0, n-1, x); 
+   (result == -1)? printf("Element is not present in array") 
+                 : printf("Element is present at index %d", result); 
+   return 0; 
+} in language: C with Compiler Mode: offline
+17:25:00 [INFO] __main__ - Running code: 
+
+// C program to implement Binary Search 
+#include <stdio.h> 
+  
+// A recursive binary search function. It returns 
+// location of x in given array arr[l..r] is present, 
+// otherwise -1 
+int binarySearch(int arr[], int l, int r, int x) 
+{ 
+   if (r >= l) 
+   { 
+        int mid = l + (r - l)/2; 
+  
+        // If the element is present at the middle itself 
+        if (arr[mid] == x)   
+            return mid; 
+  
+        // If element is smaller than mid, then it can only 
+        // be present in left subarray 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+  
+        // Else the element can only be present in right subarray 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+  
+   // We reach here when element is not present in array 
+   return -1; 
+} 
+  
+int main(void) 
+{ 
+   int arr[] = {2, 3, 4, 10, 40}; 
+   int n = sizeof(arr)/ sizeof(arr[0]); 
+   int x = 10; 
+   int result = binarySearch(arr, 0, n-1, x); 
+   (result == -1)? printf("Element is not present in array") 
+                 : printf("Element is present at index %d", result); 
+   return 0; 
+} in language: C
+17:25:00 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmpva5xs6i3.c
+17:25:00 [INFO] __main__ - Output execution: cc1.exe: fatal error: C:\Users\mundr\AppData\Local\Temp\tmpva5xs6i3.c: Permission denied
+compilation terminated.
+
+17:25:00 [ERROR] __main__ - Error in code execution: cc1.exe: fatal error: C:\Users\mundr\AppData\Local\Temp\tmpva5xs6i3.c: Permission denied
+compilation terminated.
+
+17:25:24 [WARNING] __main__ - Trying to run fixed code:  
+
+// Fixed code:
+
+// C program to implement Binary Search 
+#include <stdio.h> 
+  
+// A recursive binary search function. It returns 
+// location of x in given array arr[l..r] is present, 
+// otherwise -1 
+int binarySearch(int arr[], int l, int r, int x) 
+{ 
+   if (r >= l) 
+   { 
+        int mid = l + (r - l)/2; 
+  
+        // If the element is present at the middle itself 
+        if (arr[mid] == x)   
+            return mid; 
+  
+        // If element is smaller than mid, then it can only 
+        // be present in left subarray 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+  
+        // Else the element can only be present in right subarray 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+  
+   // We reach here when element is not present in array 
+   return -1; 
+} 
+  
+int main(void) 
+{ 
+   int arr[] = {2, 3, 4, 10, 40}; 
+   int n = sizeof(arr)/ sizeof(int); 
+   int x = 10; 
+   int result = binarySearch(arr, 0, n-1, x); 
+   (result == -1)? printf("Element is not present in array") 
+                 : printf("Element is present at index %d", result); 
+   return 0; 
+}
+17:25:24 [INFO] __main__ - Running code:  
+
+// Fixed code:
+
+// C program to implement Binary Search 
+#include <stdio.h> 
+  
+// A recursive binary search function. It returns 
+// location of x in given array arr[l..r] is present, 
+// otherwise -1 
+int binarySearch(int arr[], int l, int r, int x) 
+{ 
+   if (r >= l) 
+   { 
+        int mid = l + (r - l)/2; 
+  
+        // If the element is present at the middle itself 
+        if (arr[mid] == x)   
+            return mid; 
+  
+        // If element is smaller than mid, then it can only 
+        // be present in left subarray 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+  
+        // Else the element can only be present in right subarray 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+  
+   // We reach here when element is not present in array 
+   return -1; 
+} 
+  
+int main(void) 
+{ 
+   int arr[] = {2, 3, 4, 10, 40}; 
+   int n = sizeof(arr)/ sizeof(int); 
+   int x = 10; 
+   int result = binarySearch(arr, 0, n-1, x); 
+   (result == -1)? printf("Element is not present in array") 
+                 : printf("Element is present at index %d", result); 
+   return 0; 
+} in language: C
+17:25:24 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmp8_it4fr8.c
+17:25:25 [WARNING] __main__ - Fixed code output: cc1.exe: fatal error: C:\Users\mundr\AppData\Local\Temp\tmp8_it4fr8.c: Permission denied
+compilation terminated.
+
+17:25:25 [INFO] __main__ - Execution Output: cc1.exe: fatal error: C:\Users\mundr\AppData\Local\Temp\tmp8_it4fr8.c: Permission denied
+compilation terminated.
+
+17:06:39 [INFO] __main__ - Saving code to file: prime.py
+17:06:41 [INFO] __main__ - Code saved to file prime.py
+17:06:58 [INFO] __main__ - Executing code: 
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2,num):
+        if (num % i) == 0:
+            return False
+    return True
+
+print(is_prime(7))  # Output: True in language: Python with Compiler Mode: online
+17:06:58 [INFO] __main__ - Generating dynamic HTML for language: Python
+17:07:06 [INFO] __main__ - Saving code to file: prime.py
+17:07:06 [INFO] __main__ - Code saved to file prime.py
+17:10:38 [INFO] __main__ - Executing code: 
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2,num):
+        if (num % i) == 0:
+            return False
+    return True
+
+print(is_prime(7))  # Output: True in language: Python with Compiler Mode: online
+17:10:38 [INFO] __main__ - Generating dynamic HTML for language: Python
+17:11:06 [INFO] __main__ - Executing code: 
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2,num):
+        if (num % i) == 0:
+            return False
+    return True
+
+print(is_prime(7))  # Output: True in language: Python with Compiler Mode: offline
+17:11:06 [INFO] __main__ - Running code: 
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2,num):
+        if (num % i) == 0:
+            return False
+    return True
+
+print(is_prime(7))  # Output: True in language: Python
+17:11:06 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmpd82y_644.py
+17:11:07 [INFO] __main__ - Runner Output execution: python: can't open file 'C:\\Users\\mundr\\AppData\\Local\\Temp\\tmpd82y_644.py': [Errno 13] Permission denied
+
+17:11:07 [INFO] __main__ - Output execution: python: can't open file 'C:\\Users\\mundr\\AppData\\Local\\Temp\\tmpd82y_644.py': [Errno 13] Permission denied
+
+17:11:07 [INFO] __main__ - Execution Output: python: can't open file 'C:\\Users\\mundr\\AppData\\Local\\Temp\\tmpd82y_644.py': [Errno 13] Permission denied
+
+17:11:26 [INFO] __main__ - Executing code: 
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2,num):
+        if (num % i) == 0:
+            return False
+    return True
+
+print(is_prime(7))  # Output: True in language: Python with Compiler Mode: online
+17:11:26 [INFO] __main__ - Generating dynamic HTML for language: Python
+17:12:23 [INFO] __main__ - Saving code to file: prime1.py
+17:12:23 [INFO] __main__ - Code saved to file prime1.py
+17:12:29 [INFO] __main__ - Executing code: 
+
+# Program to check if a number is prime or not
+
+num = int(input("Enter a number: "))
+
+# If given number is greater than 1
+if num > 1:
+   # Check for factors
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+       
+# If given number is less than or equal to 1
+# it is not prime
+else:
+   print(num,"is not a prime number") in language: Python with Compiler Mode: offline
+17:12:29 [INFO] __main__ - Running code: 
+
+# Program to check if a number is prime or not
+
+num = int(input("Enter a number: "))
+
+# If given number is greater than 1
+if num > 1:
+   # Check for factors
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+       
+# If given number is less than or equal to 1
+# it is not prime
+else:
+   print(num,"is not a prime number") in language: Python
+17:12:29 [INFO] __main__ - Input file: C:\Users\mundr\AppData\Local\Temp\tmpg_3krttp.py
+17:12:29 [INFO] __main__ - Runner Output execution: python: can't open file 'C:\\Users\\mundr\\AppData\\Local\\Temp\\tmpg_3krttp.py': [Errno 13] Permission denied
+
+17:12:29 [INFO] __main__ - Output execution: python: can't open file 'C:\\Users\\mundr\\AppData\\Local\\Temp\\tmpg_3krttp.py': [Errno 13] Permission denied
+
+17:12:29 [INFO] __main__ - Execution Output: python: can't open file 'C:\\Users\\mundr\\AppData\\Local\\Temp\\tmpg_3krttp.py': [Errno 13] Permission denied
+
+17:13:03 [INFO] __main__ - Saving code to file: prime1.py
+17:13:03 [INFO] __main__ - Code saved to file prime1.py
+17:14:07 [INFO] __main__ - Saving code to file: prime2.py
+17:14:07 [INFO] __main__ - Code saved to file prime2.py
+22:36:44 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000128396C4550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:44 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000128396C4640>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:44 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000128396C4A00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+22:36:49 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000128396C4B20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:49 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1F040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:49 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1FEE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+22:36:53 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1FEB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:53 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1F880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:53 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1FCD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+22:36:57 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:57 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1F850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:36:57 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1F9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+22:37:05 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1AFB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:37:05 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1AB60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:37:05 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1ABF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+22:37:15 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B30D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:37:15 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B30DF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+22:37:15 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000012837B1AB60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 815, in urlopen
+    return self.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 815, in urlopen
+    return self.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1AB60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 520, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1AB60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 220, in request
+    result = self.request_raw(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 533, in request_raw
+    raise error.APIConnectionError(
+openai.error.APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000012837B1AB60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+17:16:59 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 12b66db7246d45de7a77ac1e4ce439fc in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:16:59 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIError: The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 12b66db7246d45de7a77ac1e4ce439fc in your message.) {
+  "error": {
+    "message": "The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 12b66db7246d45de7a77ac1e4ce439fc in your message.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 12b66db7246d45de7a77ac1e4ce439fc in your message.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:46:58 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-processing-ms': '146', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': '12b66db7246d45de7a77ac1e4ce439fc', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd0fba998929f3-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:17:04 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 6472eff5e48f1cb5ad84438f903ba495 in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:17:04 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIError: The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 6472eff5e48f1cb5ad84438f903ba495 in your message.) {
+  "error": {
+    "message": "The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 6472eff5e48f1cb5ad84438f903ba495 in your message.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 6472eff5e48f1cb5ad84438f903ba495 in your message.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:47:03 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-processing-ms': '207', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': '6472eff5e48f1cb5ad84438f903ba495', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd0fd81b8529f3-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:17:09 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 51ef28232753825ae6e46cfb2b641341 in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:17:09 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIError: The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 51ef28232753825ae6e46cfb2b641341 in your message.) {
+  "error": {
+    "message": "The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 51ef28232753825ae6e46cfb2b641341 in your message.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 51ef28232753825ae6e46cfb2b641341 in your message.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:47:08 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-processing-ms': '219', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': '51ef28232753825ae6e46cfb2b641341', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd0ff4dc7829f3-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:18:16 [INFO] openai - error_code=None error_message='The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID ff8ba6cb32fd1d9151921b2dd04c74f1 in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:18:16 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIError: The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID ff8ba6cb32fd1d9151921b2dd04c74f1 in your message.) {
+  "error": {
+    "message": "The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID ff8ba6cb32fd1d9151921b2dd04c74f1 in your message.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID ff8ba6cb32fd1d9151921b2dd04c74f1 in your message.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:48:16 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-processing-ms': '146', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': 'ff8ba6cb32fd1d9151921b2dd04c74f1', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd119d5c84860c-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:18:26 [INFO] openai - error_code=None error_message='The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID f0f6038723125b10551b1967db720606 in your email.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:18:26 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIError: The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID f0f6038723125b10551b1967db720606 in your email.) {
+  "error": {
+    "message": "The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID f0f6038723125b10551b1967db720606 in your email.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID f0f6038723125b10551b1967db720606 in your email.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:48:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-organization': 'user-rhgvadet8cu6f7orrgnyancv', 'openai-processing-ms': '3087', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': 'f0f6038723125b10551b1967db720606', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd11b968c6860c-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:18:31 [INFO] openai - error_code=None error_message='The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID b9ad3bf8582ec52c10c98bb265d93f85 in your email.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:18:31 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIError: The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID b9ad3bf8582ec52c10c98bb265d93f85 in your email.) {
+  "error": {
+    "message": "The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID b9ad3bf8582ec52c10c98bb265d93f85 in your email.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID b9ad3bf8582ec52c10c98bb265d93f85 in your email.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:48:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-organization': 'user-rhgvadet8cu6f7orrgnyancv', 'openai-processing-ms': '279', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': 'b9ad3bf8582ec52c10c98bb265d93f85', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd11f84d27860c-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:18:36 [INFO] openai - error_code=None error_message='The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID 6235f703e15464ee2d91e47fa040aab5 in your email.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+17:18:36 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIError: The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID 6235f703e15464ee2d91e47fa040aab5 in your email.) {
+  "error": {
+    "message": "The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID 6235f703e15464ee2d91e47fa040aab5 in your email.)",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID 6235f703e15464ee2d91e47fa040aab5 in your email.)', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Tue, 23 May 2023 11:48:35 GMT', 'Content-Type': 'application/json', 'Content-Length': '366', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-organization': 'user-rhgvadet8cu6f7orrgnyancv', 'openai-processing-ms': '154', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens': '149000', 'x-ratelimit-reset-requests': '1s', 'x-ratelimit-reset-tokens': '400ms', 'x-request-id': '6235f703e15464ee2d91e47fa040aab5', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7cbd12159926860c-BOM', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400'}.
+17:19:02 [INFO] __main__ - Saving code to file: sum.py
+17:19:02 [INFO] __main__ - Code saved to file sum.py
+17:19:06 [INFO] __main__ - Executing code: 
+
+x = int(input("Enter First Number: "))
+y = int(input("Enter Second Number: "))
+
+sum = x + y
+
+print("The sum is:", sum) in language: Python with Compiler Mode: online
+17:19:06 [INFO] __main__ - Generating dynamic HTML for language: Python
+17:20:28 [INFO] __main__ - Saving code to file: sum.py
+17:20:28 [INFO] __main__ - Code saved to file sum.py
+11:43:54 [INFO] __main__ - Executing code: 
+
+# code for factorial number in Python
+def factorial_number(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial_number(n-1)
+
+# Testing 
+print(factorial_number(5))
+
+# Output
+120 in language: Python with Compiler Mode: online
+11:43:54 [INFO] __main__ - Generating dynamic HTML for language: Python
+19:17:47 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+  
+// A recursive binary search function. It returns 
+// location of x in given array arr[l..r] is present, 
+// otherwise -1 
+int binarySearch(int arr[], int l, int r, int x) 
+{ 
+   if (r >= l) 
+   { 
+        int mid = l + (r - l)/2; 
+  
+        // If the element is present at the middle 
+        // itself 
+        if (arr[mid] == x)   
+            return mid; 
+  
+        // If element is smaller than mid, then 
+        // it can only be present in left subarray 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+  
+        // Else the element can only be present 
+        // in right subarray 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+  
+   // We reach here when element is not 
+   // present in array 
+   return -1; 
+} 
+  
+int main(void) 
+{ 
+   int arr[] = {2, 3, 4, 10, 40}; 
+   int n = sizeof(arr)/ sizeof(arr[0]); 
+   int x = 10; 
+   int result = binarySearch(arr, 0, n-1, x); 
+   (result == -1)? printf("Element is not present in array") 
+                 : printf("Element is present at index %d", 
+                                                   result); 
+   return 0; 
+} in language: C with Compiler Mode: online
+19:17:47 [INFO] __main__ - Generating dynamic HTML for language: C
+09:50:09 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+#include <string.h> 
+  
+// A function to check if a string str is palindrome 
+void isPalindrome(char str[]) 
+{ 
+    // Start from leftmost and rightmost corners of str 
+    int l = 0; 
+    int h = strlen(str) - 1; 
+  
+    // Keep comparing characters while they are same 
+    while (h > l) 
+    { 
+        if (str[l++] != str[h--]) 
+        { 
+            printf("%s is Not Palindrome", str); 
+            return; 
+        } 
+    } 
+    printf("%s is palindrome", str); 
+} 
+  
+// Driver program to test above function 
+int main() 
+{ 
+    char str[] = "malayalam"; 
+    isPalindrome(str); 
+    return 0; 
+} in language: C with Compiler Mode: online
+09:50:09 [INFO] __main__ - Generating dynamic HTML for language: C
+09:50:22 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+#include <string.h> 
+  
+// A function to check if a string str is palindrome 
+void isPalindrome(char str[]) 
+{ 
+    // Start from leftmost and rightmost corners of str 
+    int l = 0; 
+    int h = strlen(str) - 1; 
+  
+    // Keep comparing characters while they are same 
+    while (h > l) 
+    { 
+        if (str[l++] != str[h--]) 
+        { 
+            printf("%s is Not Palindrome", str); 
+            return; 
+        } 
+    } 
+    printf("%s is palindrome", str); 
+} 
+  
+// Driver program to test above function 
+int main() 
+{ 
+    char str[] = "malayalam"; 
+    isPalindrome(str); 
+    return 0; 
+} in language: C with Compiler Mode: online
+09:50:22 [INFO] __main__ - Generating dynamic HTML for language: C
+16:48:02 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:48:02 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:48:07 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:48:07 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:48:11 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:48:11 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:48:15 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:48:15 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:48:24 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:48:24 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:48:34 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:48:34 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+16:49:55 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:49:55 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:49:59 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:49:59 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:50:03 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:50:03 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:50:08 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:50:08 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:50:16 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:50:16 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:50:27 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:50:27 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+16:51:29 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:51:29 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:51:34 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:51:34 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:51:38 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:51:38 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:51:42 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:51:42 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:51:51 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:51:51 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:52:01 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:52:01 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+16:54:46 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:54:46 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:54:50 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:54:50 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:54:54 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:54:54 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:54:59 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:54:59 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:55:07 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:55:07 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:55:18 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:55:18 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+16:56:11 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:56:11 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:56:15 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:56:15 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:56:20 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:56:20 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:56:24 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:56:24 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:56:32 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:56:32 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:56:43 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:56:43 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 238, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+16:57:46 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:57:46 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:57:50 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:57:50 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:57:54 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:57:54 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:57:59 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:57:59 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:58:07 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:58:07 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+16:58:18 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+16:58:18 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 238, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+17:04:27 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:04:27 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:04:32 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:04:32 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:04:36 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:04:36 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:04:41 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:04:41 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:04:49 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:04:49 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:04:59 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:04:59 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 237, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+17:35:22 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:35:22 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:35:27 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:35:27 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:35:31 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:35:31 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:35:36 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:35:36 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:35:44 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:35:44 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+17:35:55 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+17:35:55 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 237, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+18:17:26 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+18:17:26 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+18:17:31 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+18:17:31 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+18:17:36 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+18:17:36 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+18:17:41 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+18:17:41 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+18:17:50 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+18:17:50 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+18:18:02 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+18:18:02 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+13:46:12 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+13:46:12 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+13:46:16 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+13:46:16 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+13:46:21 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+13:46:21 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+13:46:26 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+13:46:26 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+13:46:34 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+13:46:34 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+13:46:45 [INFO] openai - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+13:46:45 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 236, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 230, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 624, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 687, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
+13:53:47 [INFO] __main__ - Executing code: 
+
+#include <stdio.h>
+
+int main()
+{
+  int array[100], n, c, d, swap;
+ 
+  printf("Enter number of elements\n");
+  scanf("%d", &n);
+ 
+  printf("Enter %d integers\n", n);
+ 
+  for (c = 0; c < n; c++)
+    scanf("%d", &array[c]);
+ 
+  for (c = 0 ; c < ( n - 1 ); c++)
+  {
+    for (d = 0 ; d < n - c - 1; d++)
+    {
+      if (array[d] > array[d+1]) /* For decreasing order use < */
+      {
+        swap       = array[d];
+        array[d]   = array[d+1];
+        array[d+1] = swap;
+      }
+    }
+  }
+ 
+  printf("Sorted list in ascending order:\n");
+ 
+  for (c = 0; c < n; c++)
+     printf("%d\n", array[c]);
+ 
+  return 0;
+} in language: C with Compiler Mode: online
+13:53:47 [INFO] __main__ - Generating dynamic HTML for language: C
+13:54:35 [INFO] __main__ - Saving code to file: bubble
+13:54:35 [INFO] __main__ - Code saved to file bubble
+13:54:54 [INFO] __main__ - Saving code to file: bubble.c
+13:54:54 [INFO] __main__ - Code saved to file bubble.c
+14:01:34 [INFO] __main__ - Executing code: 
+
+#include <stdio.h> 
+
+// Function to implement bubble sort 
+void bubbleSort(int arr[], int n) 
+{ 
+   int i, j; 
+   for (i = 0; i < n-1; i++)       
+      
+    // Last i elements are already in place    
+    for (j = 0; j < n-i-1; j++)  
+        if (arr[j] > arr[j+1]) 
+            swap(&arr[j], &arr[j+1]); 
+} 
+
+/* Function to swap two numbers in an array */
+void swap(int *xp, int *yp) 
+{ 
+    int temp = *xp; 
+    *xp = *yp; 
+    *yp = temp; 
+} 
+  
+/* Function to print an array */
+void printArray(int arr[], int size) 
+{ 
+    int i; 
+    for (i=0; i < size; i++) 
+        printf("%d ", arr[i]); 
+    printf("\n"); 
+} 
+  
+// Driver program to test above functions 
+int main() 
+{ 
+    int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
+    int n = sizeof(arr)/sizeof(arr[0]); 
+    bubbleSort(arr, n); 
+    printf("Sorted array: \n"); 
+    printArray(arr, n); 
+    return 0; 
+} in language: C with Compiler Mode: online
+14:01:34 [INFO] __main__ - Generating dynamic HTML for language: C
+14:02:05 [INFO] __main__ - Saving code to file: bubble.c
+14:02:05 [INFO] __main__ - Code saved to file bubble.c
+16:31:09 [INFO] __main__ - Executing code: 
+
+public class StringSwap {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "World";
+
+        System.out.println("Before Swapping:");
+        System.out.println("str1 = " + str1);
+        System.out.println("str2 = " + str2);
+
+        // Swapping str1 and str2
+        String temp = str1;
+        str1 = str2;
+        str2 = temp;
+
+        System.out.println("After Swapping:");
+        System.out.println("str1 = " + str1);
+        System.out.println("str2 = " + str2);
+    }
+} in language: Java with Compiler Mode: online
+16:31:09 [INFO] __main__ - Generating dynamic HTML for language: Java
+16:31:32 [INFO] __main__ - Saving code to file: swap_string.java
+16:31:33 [INFO] __main__ - Code saved to file swap_string.java
+12:22:38 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C3400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:38 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C32B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:38 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C1EA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:22:42 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C2D40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:42 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C1FC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:42 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C0B20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:22:46 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C0D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:46 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C0BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:46 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3AA7D00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:22:50 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3AA7370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:50 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3AA6BC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:50 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE37C1AB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:22:54 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C70D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:54 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C70C70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:54 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C70E50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:22:58 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C71330>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:58 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C714E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:58 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C71690>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:22:58 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C71930>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:58 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C71B40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:22:58 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C71CF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:23:02 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C71FF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:02 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C721A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:02 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C723E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:23:06 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C724D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:06 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C72800>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:06 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C729B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:23:08 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C7C8B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:08 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE3C72A40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:14 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2D090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:14 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2CFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:14 [WARNING] langchain.llms.openai - Retrying langchain.llms.openai.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2D7B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')).
+12:23:24 [WARNING] urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2CD90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:24 [WARNING] urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2C5E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/completions
+12:23:24 [ERROR] __main__ - Error in code generation: Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001DFE1E2C370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 815, in urlopen
+    return self.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 815, in urlopen
+    return self.urlopen(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2C370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 520, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2C370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 235, in generate_code
+    st.session_state.generated_code = code_chain.run(code_prompt)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 236, in run
+    return self(args[0], callbacks=callbacks)[self.output_keys[0]]
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 140, in __call__
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 134, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 69, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 79, in generate
+    return self.llm.generate_prompt(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 127, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 176, in generate
+    raise e
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\base.py", line 170, in generate
+    self._generate(prompts, stop=stop, run_manager=run_manager)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 306, in _generate
+    response = completion_with_retry(self, prompt=_prompts, **params)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 106, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\langchain\llms\openai.py", line 104, in _completion_with_retry
+    return llm.client.create(**kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 220, in request
+    result = self.request_raw(
+  File "C:\Users\mundr\AppData\Roaming\Python\Python310\site-packages\openai\api_requestor.py", line 533, in request_raw
+    raise error.APIConnectionError(
+openai.error.APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DFE1E2C370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+12:23:24 [INFO] __main__ - Executing code:  in language:  with Compiler Mode: online
+12:23:24 [INFO] __main__ - Generating dynamic HTML for language: 
+12:23:24 [ERROR] __main__ - Error in code execution: Traceback (most recent call last):
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 280, in execute_code
+    html_template = generate_dynamic_html(
+  File "E:\Python Programming\Python Project complete\Streamlit_and_openai\Code_Vault\main.py", line 111, in generate_dynamic_html
+    language=LANGUAGE_CODES[language], script_code=code_prompt
+KeyError: ''
+
